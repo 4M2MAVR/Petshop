@@ -1,8 +1,28 @@
 {
+  "name": "petshop",
+  "version": "1.0.0",
+  "description": "Projeto utilizado como base de ensino e treinamento, dos cursos de **Informática**,  \r principalmente de nível técnico - **IFSP**",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -e ts,json,mustache --exec ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennyazevedofh/PetShop.git"
+  },
+  "keywords": [],
+  "author": "Matheus de Almeida Villegas Reis",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dennyazevedofh/PetShop/issues"
+  },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/mustache-express": "^1.2.5",
     "@types/node": "^25.3.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
