@@ -1,4 +1,4 @@
-type MenuOptions = ' ' | 'all' | 'dogs' | 'cats' | 'fishes'
+type MenuOptions = '' | 'all' | 'dogs' | 'cats' | 'fishes'
 
 export const createMenuObject = (activeMenu: MenuOptions) => {
     let returnObject = {
@@ -7,7 +7,7 @@ export const createMenuObject = (activeMenu: MenuOptions) => {
         cats: false,
         fishes: false
     }
-    if(activeMenu !== ' ') {
+    if(activeMenu !== '') {
         returnObject[activeMenu] = true;
     }
 
